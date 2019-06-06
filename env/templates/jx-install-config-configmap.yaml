@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQLDQkD2qeAR2ZnWcWC0tumzANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ3OGQ1MDk4Yi0zODEzLTRiYjYtYTQ2OC03YjkzYWQzOWMzNGEw
+    HhcNMTkwNjA2MTYxNTI3WhcNMjQwNjA0MTcxNTI3WjAvMS0wKwYDVQQDEyQ3OGQ1
+    MDk4Yi0zODEzLTRiYjYtYTQ2OC03YjkzYWQzOWMzNGEwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQC8/S7wOi2bC9CMN4g9v6K1D/KghuLi/yuqs3xLkUEl
+    U6TZoRMz4HzQdO99MHcRuLZnTMFkEeC8UUqRMOTgoX8RwnsWZQYKNTUG7MFb8IrN
+    7UYJ4dFidZIhExzlHLIkrT1tzI4uYvQi3V4WJgB1zBSFT8KA3IFx7bEfNRZnqTDe
+    0s9aEZ+yVDKR7CpCTjRNRbZU8h3KL7QXGNERbqNTQj0NTMBVNmFpPiy32C+ZTzQs
+    G7bfCaPZsvvXkn/wOCqUtGpqX3daqzCr+omb7ZWUjSynXvjKAcwgVsyfFDJyMKS5
+    OYhs/fpaYODt4FO6Pf6HzOipWoCL4Z6CLmZGynDpBopLAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCG
+    5XdcuO2QZ7VP0AwPjR6rSR6qWacwQoj2XzpTzwqxHk9A8WD2V3Lko0s3ZRXlYlf+
+    XoYYv0eWWyEvBwCnyDTOIa1qQwawruGbWKu73x5tlngyiIcR1b7Ae6eAnCUTKwMq
+    3VFrWUMWS0DkmF/oqeoMva/xHzKqOioiyPj79G1c7sdK0ByEIwKybVqkFUEaCznC
+    Ih4+qAh/M+4HTDy2LYXzESoMEmKFV7etN+UkFkMHGtJ/IPhBDS12yTQVgrk1wug7
+    Gm8WJJlnlvtdJ7a+SOgQoyjDKXT3GTX3A+cFFulFO1WkGEWiZmPgeqlDYgT5G7sA
+    0j/BNWAod2idXMnoBO4e
+    -----END CERTIFICATE-----
+  clusterName: loopthrough-meetup
+  jx-install-version: 2.0.230
+  kubeProvider: gke
+  projectID: kubernetes-workshop-242916
+  region: ""
+  secretsLocation: vault
+  server: https://35.198.71.168
+  systemVaultName: jx-vault-loopthrough-m
+  zone: europe-west3-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
